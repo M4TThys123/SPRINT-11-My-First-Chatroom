@@ -1,0 +1,31 @@
+{
+  "name": "sprint-11-my-first-chatroom",
+  "version": "1.0.0",
+  "description": " Mijn eerste realtime Chatroom applicatie gebasseert op de huistijl van Coding the Curbs. ",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4TThys123/SPRINT-11-My-First-Chatroom.git"
+  },
+  "author": "Matthijs Blauw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4TThys123/SPRINT-11-My-First-Chatroom/issues"
+  },
+  "homepage": "https://github.com/M4TThys123/SPRINT-11-My-First-Chatroom#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
